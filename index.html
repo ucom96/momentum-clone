@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--clock-->
+    <h2 id="clock">00:00:00</h2>
+    <!--login-->
     <form class="hidden" id="login-form">
       <input
         required
@@ -17,9 +20,21 @@
       />
       <button>Log In</button>
     </form>
-    <h2 id="clock">00:00:00</h2>
     <h1 class="hidden"></h1>
+    <!--todo-->
+    <form id="todo-form">
+      <input type="text" placeholder="Please write todo" />
+    </form>
+    <ul id="todo-list"></ul>
+    <!--quote-->
+    <div id="quotes">
+      <span></span>
+      <span></span>
+    </div>
     <script src="js/login.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 </html>
