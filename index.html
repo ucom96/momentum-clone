@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum App</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--weahter-->
+    <div id="weather" class="weather-style">
+      <span></span>
+      <span></span>
+    </div>
     <!--clock-->
-    <h2 id="clock">00:00:00</h2>
+    <h2 id="clock" class="clock-style">00:00:00</h2>
     <!--login-->
-    <form class="hidden" id="login-form">
+    <form class="hidden" id="login-form" class="login-style">
       <input
         required
         maxlength="15"
@@ -20,19 +26,14 @@
       />
       <button>Log In</button>
     </form>
-    <h1 class="hidden"></h1>
+    <h1 class="hidden" class="h1-style"></h1>
     <!--todo-->
-    <form id="todo-form">
+    <form id="todo-form" class="todo-style">
       <input type="text" placeholder="Please write todo" required />
     </form>
     <ul id="todo-list"></ul>
     <!--quote-->
-    <div id="quotes">
-      <span></span>
-      <span></span>
-    </div>
-    <!--weahter-->
-    <div id="weather">
+    <div id="quotes" class="clock-style">
       <span></span>
       <span></span>
     </div>
